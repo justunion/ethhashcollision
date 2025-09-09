@@ -1,0 +1,27 @@
+{
+  "rpc_urls": [
+    "https://eth-mainnet.public.blastapi.io",
+    "https://rpc.ankr.com/eth",
+    "https://cloudflare-eth.com",
+    "https://api.mycryptoapi.com/eth",
+    "https://eth-mainnet.publicnode.com"
+  ],
+  "log_settings": {
+    "log_dir": "logs",
+    "max_log_size_mb": 10,
+    "backup_count": 5
+  },
+  "hunting_settings": {
+    "stats_interval": 1000,
+    "max_attempts": null,
+    "stop_on_first_find": false,
+    "request_delay": 0.05,
+    "max_retries": 3
+  },
+  "logging_settings": {
+    "log_level": "INFO",
+    "log_public_key_interval": 100,
+    "main_log_retention_days": 30,
+    "success_log_retention_days": 365
+  }
+}
