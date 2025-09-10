@@ -87,7 +87,7 @@ def install_service():
             start_cmd = [sys.executable, str(service_script), "start"]
             start_result = subprocess.run(start_cmd, capture_output=True, text=True, cwd=str(current_dir))
             
-            if start_result.returncode == 0:
+            if start_result.returncode == 0:    
                 print("服务启动成功!")
                 print("\n服务管理命令:")
                 print(f"  启动服务: python {service_script} start")
